@@ -1,2 +1,2 @@
-# Neon-quiz
-Neon website is a website where you are given 3 questions, and you have 15 seconds for each question
+Neon Quiz App
+This is a simple interactive quiz built with HTML, CSS, and JavaScript. It includes a start button, a progress bar that updates as you move through questions, and a countdown timer for each question. At the end, your score is displayed.
