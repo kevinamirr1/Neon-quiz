@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Neon Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>⚡ Neon Quiz ⚡</h1>
+    
+    <button id="startBtn">Start Quiz</button>
+    
+    <div class="progress" style="display:none;">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+    
+    <div class="timer" id="timer" style="display:none;">Time left: 15s</div>
+    
+    <div id="quiz" style="display:none;">
+      <div class="question" id="question"></div>
+      <div class="options" id="options"></div>
+      <button id="nextBtn" style="display:none;">Next</button>
+      <div class="result" id="result"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
